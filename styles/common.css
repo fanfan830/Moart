@@ -1,0 +1,146 @@
+body
+{
+	font-family: Arial,clean,"Bell MT",sans-serif;
+}
+.warrper
+{
+	position: relative;
+}
+/*header*/
+header
+{
+	
+	height: 150px;
+}
+
+header a
+{
+	width: 286px;
+	height: 52px;
+	background: url("../images/logo.png") no-repeat;
+}
+.public-container
+{
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	padding-left: 48px;
+}
+/*end*/
+/*aside*/
+aside
+{
+	position: absolute;
+	top: 150px;
+	left:0 ;
+
+}
+
+.public-nav  li
+{
+	
+	margin-top: 15px;
+}
+.public-nav li ul
+{
+	display: none;
+}
+.public-nav li a
+{
+	display: inline-block;
+	font-size:13px;
+	font-weight: 700;
+	color: #000;
+	padding-bottom:8px;
+
+}
+
+.public-nav li a:hover,.current
+{
+	background-image: url("../images/line01_03.png");
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-position:0px 16px;
+	
+}
+/*end aside*/
+.public-center
+{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+/*footer*/
+footer
+{
+	position:fixed;
+	height: 150px;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+
+}
+.footer-icons
+{
+	opacity: .5;
+	cursor: pointer;
+}
+.footer-icons a
+{
+	display: inline-block;
+	width: 22px;
+	height: 18px;
+	margin-right:5px; 
+	background-repeat: no-repeat;
+}
+.footer-icons .icon1
+{
+	background-image: url("../images/icon1.png");
+}
+
+.footer-icons .icon2
+{
+	background-image: url("../images/icon2.png");
+}
+.footer-icons .icon3
+{
+	background-image: url("../images/icon3.png");
+}
+.footer-icons .icon4
+{
+	width: 38px;
+	background-image: url("../images/icon4.png");
+}
+.footer-icons .icon5
+{
+	background-image: url("../images/icon5.png");
+}
+
+/*end*/
+
+/*wechat*/
+.wechat
+{
+	position: fixed;
+	bottom:108px;
+	left:91px;
+	font-size: 12px;
+	padding: 15px;
+	background-color: #c9c9c9;
+	text-align: center;
+	display: none;
+
+
+}
+.wechat_icon
+{
+	background-color: #fff;
+	margin-bottom: 5px;
+}
+.wechat  img
+{
+	width: 132px;
+	height: 132px;
+}
+
+

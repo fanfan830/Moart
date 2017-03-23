@@ -1,0 +1,290 @@
+/*index.html*/
+.container
+{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -140px;
+    margin-top:-89px; 
+
+}
+.welocmePic
+{
+    width: 100%;
+}
+.logo
+{
+    width: 200px;
+    margin: 100px 40px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+/*about-video*/
+.vjs-poster
+{
+	background-color:#fff;
+}
+.vjs-big-play-centered .vjs-big-play-button
+{
+	margin-top: -2.5em;
+	margin-left: -2.5em;
+}
+.video-js .vjs-big-play-button {
+    height: 5em;
+    width: 5em;
+    line-height: 4.6em;
+ 	background-color:transparent;
+    -webkit-border-radius: 2.5em;
+    -moz-border-radius: 2.5em;
+    border-radius: 2.5em;
+}
+.vide0-js
+{
+    width: 714px;
+    height: 400px;
+}
+
+.vjs-icon-play:before, 
+.video-js .vjs-big-play-button:before, 
+.video-js .vjs-play-control:before
+{
+	font-size: 3em;
+}
+
+/*tommorow*/
+.program
+{
+    color: #000;
+
+}
+.program_title
+{
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 200px;
+}
+
+.line
+{
+    display: block;
+    height:9px;
+    width: 100%;
+    max-width: 922px;
+    background-image: url(../images/longLine.png);
+}
+.program_bag
+{
+    display: inline-block;
+    margin: 10px 0;
+  
+} 
+.program_bag img
+{
+    width: 280px;
+}
+.program_event
+{
+    display: inline-block;
+    line-height: 18px;
+}
+.event
+{
+    margin-top: 15px;
+}
+.event h4
+{
+    font-size: 15px;
+    /*line-height: 10px;*/
+    margin-bottom: 5px;
+
+}
+.event p
+{
+    font-size: 13px;
+
+}
+
+/*art*/
+.infoT
+{
+    width: 600px;
+    color: #000;
+    position: relative;
+}
+.infoT  div
+{
+    display: inline-block;
+}
+.infoT-price
+{
+    position: absolute;
+    top: 268px;
+    left: 240px;
+    width: 90px;
+}
+.infoT_price:hover
+{
+    background-image: url("../images/buyLine.gif");
+    background-repeat: no-repeat;
+    background-position:16px 142px;
+}
+.infoT_pic
+{
+    display: inline-block;
+    width: 600px;
+}
+
+.infoT-text h3
+{
+    font-size: 17px;
+    font-weight: normal;
+    padding: 10px 0;
+}   
+.infoT-text  p
+{
+    font-size: 13px;
+    line-height: 19px;
+}
+#openArt
+{
+    float: right;
+}
+.infoT-small
+{
+    margin-left: 64px;
+}
+.infoT-small a
+{
+    display: inline-block;
+}
+
+.infoT-fouce
+{
+    padding-bottom: 5px;
+    background-image: url(../images/mo_art_line.png);
+    background-repeat: no-repeat;
+    background-position: 8px 105px;
+
+}
+article .artBag
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display:none;
+}
+.artBag img
+{
+    width: 837px;
+}
+
+.close
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 70px;
+    right: 18px;
+}
+
+/*背景图片切换*/
+.s-skin-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  zoom: 1;
+  background-size: cover;
+  cursor: pointer;
+}
+/*轮播*/
+.image-slide
+{
+    position: relative;
+    display: none;
+}
+.image-slide-contain
+{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    z-index: -1;
+    overflow: hidden;
+}
+#list
+{
+    position: absolute;
+    width: 1200px;
+    height: 400px;
+    z-index: 2;
+}
+.image-slide:hover,
+.image-slide:active,
+.image-slide:focus,
+.image-slide:vistied
+{
+    background-color: #fff;
+}
+.image-slide-contain img
+{
+    float: left;
+    width:600px;
+    height: 400px;
+}
+
+.image-icon
+{
+    width: 32px;
+    height: 60px;
+    position: absolute;
+    top:50%;
+    z-index:999;
+    cursor: pointer;
+}
+.image-slider-back
+{
+    background-image: url("../images/leftArrowMark.png");
+    left:-50px;
+}
+.image-slider-next
+{
+    background-image: url("../images/rightArrowMark.png");
+    right: -40px;
+}
+
+.click-open
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+
+.closePop
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    cursor: pointer;
+}
+/*//jounery*/
+
+.jounery
+{
+    display: block;
+}
+
